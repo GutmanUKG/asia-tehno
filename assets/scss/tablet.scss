@@ -1,0 +1,125 @@
+@media (max-width: 1199px){
+    .section-banner{
+        .banner-list{
+            .banner-item{
+                background-size: cover;
+                padding: 60px 0;
+                height: 400px !important;
+                .col-4{
+                    width: 50%;
+                    .item-title{
+                        font-size: 24px;
+                        line-height: 120%; /* 28.8px */
+                        letter-spacing: -0.48px;
+                    }
+                    .item-list{
+                        li{
+                            font-size: 13px;
+                        }
+                    } 
+                }
+                .item-btns{
+                    a.item-link--main,
+                    a.item-link span{
+                        padding: 12px 32px;
+                        font-size: 14px;
+                    }
+                } 
+            }
+            .slick-dots{
+                transform: translateY(16px)
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    .header-top{
+        display: none;
+    }
+    .header-body{
+        padding: 18px;
+    }
+    .header-bar{
+        .bar-search{
+            input{
+                display: none;
+            }
+            button{
+                position: static;
+            }
+        }
+        .bar-icons{
+            display: none;
+        }
+    } 
+    .header-body{
+        .header-menu{
+            .header-menu--list{
+                display: none;
+            }
+        } 
+    } 
+
+    .services{
+        .services-item{
+            padding-top: 60px;
+            font-size: 13px;
+            line-height: 20px; 
+            .item-title{
+                font-size: 16px;
+                line-height: 24px;
+            }
+        } 
+    } 
+
+    .grid_menu{
+        .grid_menu-list {
+            .grid_menu-item{
+                display: flex;
+                flex-direction: column;
+                padding: 12px;
+                .item-info{
+                    order: 1;
+                    padding: 0;
+                    width: 100%;
+                    height: auto;
+                    h2{
+
+                    }
+                    p{
+
+                    }
+                    .item_menu{
+                        display: flex;
+                        flex-direction: column;
+                        list-style: none;
+                        padding: 0;
+                        li{
+                            a{
+                                text-decoration: none;
+                                color: #67677E;
+                                font-family: 'Inter',sans-serif;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                            }
+                        }
+                    }
+                }
+                .item-content{
+                    width: 100%;
+                    margin-bottom: 24px;
+                    .item_menu{
+                        display: none;
+                    }
+                    picture{
+
+                    }
+                }
+              
+            }
+        }
+    }
+}

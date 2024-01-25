@@ -22,7 +22,21 @@ document.addEventListener('DOMContentLoaded', ()=>{
         slidesToScroll: 1,
         dots: false,
         prevArrow: $('.slider-btn--prev'),
-        nextArrow: $('.slider-btn--next')
+        nextArrow: $('.slider-btn--next'),
+        responsive: [
+            {
+              breakpoint: 1023,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
     });
     //Работы
     $('.works-slider').slick({
@@ -49,6 +63,21 @@ document.addEventListener('DOMContentLoaded', ()=>{
         nextArrow: $('.slider-brands--next')
     });
 
+
+    try{
+        if(body.clientWidth < 1024){
+            $('.grid_menu-list').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: false,
+               
+                // prevArrow: $('.slider-brands--prev'),
+                // nextArrow: $('.slider-brands--next')
+            });
+        }
+    }catch(e){
+
+    }
 
     function clearClass(elements, activeClass){
         console.log(elements)
