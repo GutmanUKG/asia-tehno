@@ -31,9 +31,19 @@
             }
         }
     }
+
+    .info-content{
+        .info-text {
+            max-width: 50%;
+        }
+
+    }
 }
 
 @media (max-width: 1023px){
+    .sidebar{
+        max-width: 50%;
+    }
     .header-top{
         display: none;
     }
@@ -44,6 +54,7 @@
         .bar-search{
             input{
                 display: none;
+
             }
             button{
                 position: static;
@@ -119,6 +130,29 @@
                     }
                 }
               
+            }
+        }
+    }
+    .default-animate{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+@media (max-width: 991px){
+    .info-content{
+        padding: 32px 60px;
+        .info-text{
+            max-width: 70%;
+        }
+        .info-img{
+            right: 30px;
+            picture{
+                img{
+                    max-width: 300px;
+                }
             }
         }
     }

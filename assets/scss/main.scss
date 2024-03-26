@@ -604,6 +604,7 @@ body{
     display: block;
   }
 }
+
 .services{
   padding-bottom: 120px;
   .services-item{
@@ -763,6 +764,7 @@ body{
     background: #3D3DF5;
   }
 }
+
 .btn-default-animate{
   border-radius: 52px;
   background: #3D3DF5;
@@ -817,6 +819,7 @@ body{
     }
   }
 }
+
 .catalog-slider{
   position: relative;
   padding-bottom: 120px;
@@ -1030,6 +1033,7 @@ body{
 .info-banner{
   padding-bottom: 120px;
 }
+
 .info-content{
   padding: 52px 64px 60px 64px;
   box-sizing: border-box;
@@ -1086,6 +1090,7 @@ body{
 .info-content--yellow{
   background: #FFD12F;
 }
+
 .works{
   position: relative;
   padding-bottom: 120px ;
@@ -1484,6 +1489,7 @@ footer{
     }
   }
 }
+
 .title-page{
   color: #0D0D0F;
   font-family: Inter,sans-serif;
@@ -1494,6 +1500,7 @@ footer{
   letter-spacing: -0.64px;
   margin-bottom: 32px;
 }
+
 .tags{
   margin-bottom: 64px;
   .tags-list{
@@ -1579,6 +1586,7 @@ footer{
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
+
         line-height: 24px;
       }
       &:after{
@@ -1701,4 +1709,4 @@ footer{
   }
 }
 
-@import url(./tablet.scss)
+@import url(./tablet.scss);

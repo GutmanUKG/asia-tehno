@@ -1664,6 +1664,7 @@ footer .col-3:last-child ul li a{
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
+
         line-height: 24px;
       }
 .filter-list .filter-item .filter-toggle:after{
@@ -1810,8 +1811,14 @@ footer .col-3:last-child ul li a{
             .section-banner .banner-list .slick-dots{
                 transform: translateY(16px)
             }
+        .info-content .info-text {
+            max-width: 50%;
+        }
 }
 @media (max-width: 1023px){
+    .sidebar{
+        max-width: 50%;
+    }
     .header-top{
         display: none;
     }
@@ -1820,6 +1827,7 @@ footer .col-3:last-child ul li a{
     }
             .header-bar .bar-search input{
                 display: none;
+
             }
             .header-bar .bar-search button{
                 position: static;
@@ -1887,4 +1895,24 @@ footer .col-3:last-child ul li a{
                     .grid_menu .grid_menu-list .grid_menu-item .item-content picture{
 
                     }
+    .default-animate{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+@media (max-width: 991px){
+    .info-content{
+        padding: 32px 60px;
+    }
+        .info-content .info-text{
+            max-width: 70%;
+        }
+        .info-content .info-img{
+            right: 30px;
+        }
+                .info-content .info-img picture img{
+                    max-width: 300px;
+                }
 }
